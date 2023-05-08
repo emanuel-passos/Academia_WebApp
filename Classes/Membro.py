@@ -7,7 +7,7 @@ class Membro:
         self.endereco = endereco
         self.telefone = telefone
         self.email = email
-        self.tipo_plano = tipo_plano
+        self.tipo_plano = tipo_plano 
         self.data_inicio = data_inicio
         self.ativo = ativo
         self.id = id
