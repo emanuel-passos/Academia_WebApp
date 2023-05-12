@@ -5,7 +5,7 @@ def get_all():
     
     tipos_planos = []
     
-    sql = "SELECT * FROM webuser.TB_PLANOS;"
+    sql = "SELECT * FROM webuser.TB_PLANOS"
     results = run_sql(sql)
     
     for row in results:
@@ -15,7 +15,7 @@ def get_all():
     
     return tipos_planos
 
-def get_one():
+def get_one(id):
     
     sql = "SELECT * FROM webuser.TB_PLANOS WHERE id = %s;"
     value = [id]
